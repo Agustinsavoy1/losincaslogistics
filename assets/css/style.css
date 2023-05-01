@@ -45,6 +45,30 @@ section {
   overflow: hidden;
 }
 
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  padding: 20px 0;
+  
+  position: relative;
+}
+
+
+
+.carousel-inner > .item > img {
+  
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.w-100 {
+  width: 100% !important;
+    height: 80vh;
+    object-fit: cover;
+}
+
 .section-header {
   text-align: center;
   padding-bottom: 40px;
